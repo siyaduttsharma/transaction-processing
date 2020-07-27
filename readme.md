@@ -3,21 +3,21 @@
 Built using: node.js, express, mongoDB, mongoose 
 
 # NOTE
-*NODE_ENV = environment variable
-*DATABASE = the database containing the transactions
+* NODE_ENV = environment variable
+* DATABASE = the database containing the transactions
 
-Starting main file is : server.js
+**Starting main file is : server.js**
 
 # Starting the project
 
 * The file import-dev-data.js imports or deletes the database.
 
-  *Command to import data from the .json file to the database- 
+  * Command to import data from the .json file to the database- 
        ```
        node import-dev-data.js --import
        ```
 
-  *Command to delete data from the database-
+  * Command to delete data from the database-
        ```
        node import-dev-data.js --delete
        ```
@@ -30,7 +30,7 @@ Starting main file is : server.js
        * Gets all the transactions in the database.
        * URL - /api/transactions
  
-  * **Get one Transaction **
+  * **Get one Transaction**
        * Gets a single transaction specified by the user.
        * URL - /api/transactions/:transactionID
   
@@ -48,8 +48,8 @@ Starting main file is : server.js
                 "category": "eating_out",
                 "time": "2018-03-01T12:20:00.000Z"
               }
-              
-        ```
+         ```
+      
  
  * **Patch a Transaction** 
       * Updates a specific transaction which is specified by the user.
@@ -60,8 +60,7 @@ Starting main file is : server.js
                 
                 "sourceAccount": 1103264629645552,
               }
-              
-       ```
+        ```
  
  * **Delete a Transaction** 
       * Deletes a single transaction which is specified by the user.
