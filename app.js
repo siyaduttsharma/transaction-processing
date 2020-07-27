@@ -1,5 +1,6 @@
 const express = require('express');
 const AppError = require('./utils/appError');
+const compression = require('compression');
 const globalErrorHandler = require('./controllers/errorController');
 
 const transactionRouter = require('./routes/transactionRoute');
