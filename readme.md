@@ -57,7 +57,6 @@ Built using: node.js, express, mongoDB, mongoose
          * Body-- 
         ```
               {
-                
                 "sourceAccount": 1103264629645552,
               }
         ```
@@ -78,7 +77,7 @@ Built using: node.js, express, mongoDB, mongoose
       * Gets all the credit transactions grouped by transaction category.
       * URL - /api/transactions/credits
       
- 
+ **********************************************************************************************************************************************
   **Balance Report Features:**
   **Conatins all the requests to view daily, monthly, weekly and yearly balance reports.**
   
